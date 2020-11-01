@@ -13,7 +13,7 @@ greet_characters(characters_array)
 dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
 
 def list_dwarves(array)
-  array.each_with_index do |element, index|
+  array.each_with_index do |element, index| #Reference https://ruby-doc.org/core-2.7.0/Enumerable.html#method-i-each_with_index
     puts "#{index + 1}. #{element}"
   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
   # Use `each_with_index` to enumerate over the provided array
